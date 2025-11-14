@@ -1,21 +1,16 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.swp
-
-# Virtual environments
-.env/
-venv/
-.venv/
-
-# Jupyter
-.ipynb_checkpoints/
-
-# OS files
+# macOS system file
 .DS_Store
 
-# IDEs
-.vscode/
-.idea/
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual documents (often from VS Code)
+.virtual_documents/
+
+# --- Good to add for Python/Data Science ---
+# Python cache
+__pycache__/
+
+# Environment variables (NEVER commit these)
+.env
+*.env
